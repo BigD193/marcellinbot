@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>*</pattern>
+        <template>Hi, I'm Marcellin Chatbot please type "Help" for information of locations in Marcellin </template>
+    </category>
+    
+    <category>
+        <pattern>Help</pattern>
+        <template>
+I'm a chatbot that helps you find where certain buildings are in Marcellin, if I didn't answer your question this is the reason why. If you did ask about a location, make sure your spelling is correct and try again. If you still didn't get answer, please type "Locations" to find out which locations I supply. Thank you. 
+ </template>
+    </category>
+    
+    <category>
+        <pattern>"Help"</pattern>
+        <template>
+I'm a chatbot that helps you find where certain buildings are in Marcellin, if I didn't answer your question this is the reason why. If you did ask about a location, make sure your spelling is correct and try again. If you still didn't get answer, please type "Locations" to find out which locations I supply. Thank you. 
+ </template>
+    </category>
+    
+    <category>
+        <pattern>Locations</pattern>
+        <template>Hi there since you have typed "locations" I will now provide a list of questions you can ask Me to find out where the Locations in Marcellin are: 
+ Where is Admara?
+ Where is Hermitage?
+ Where is the Music room?
+ Where are the relocatable?
+ Where is Montagne? 
+ Where is the library?
+ Where is the drama room?
+ Where is the canteen.?
+ Where is the office?
+ where are the toilets?
+ where is IT?
+ where is the Bray oval?
+ Where is the lion's oval?
+ where are the busses?
+ where is the Gartner oval?
+ where is Saint Marcellin Hall?
+ where is the Gym?
+ where are the change rooms?
+ where is the PLT?
+ where is Fourvière school of arts?
+ </template>
+    </category>
+    
+    <category>
+        <pattern>"location"</pattern>
+        <template>Hi there since you have typed "locations" I will now provide a list of questions you can ask Me to find out where the Locations in Marcellin are: 
+ Where is Admara?
+ Where is Hermitage?
+ Where is the Music room?
+ Where are the relocatable?
+ Where is Montagne? 
+ Where is the library?
+ Where is the drama room?
+ Where is the canteen.?
+ Where is the office?
+ where are the toilets?
+ where is IT?
+ where is the Bray oval?
+ Where is the lion's oval?
+ where are the busses?
+ where is the Gartner oval?
+ where is Saint Marcellin Hall?
+ where is the Gym?
+ where are the change rooms?
+ where is the PLT?
+ where is Fourvière school of arts?</template>
+    </category>
+    
+    <category>
+        <pattern>Hi</pattern>
+        <template>Hi, what is your full name?</template>
+    </category>
+    
+    <category>
+        <pattern>Hello</pattern>
+        <template>Hi, what is your full name?</template>
+    </category>
+    
+    <category>
+    <pattern>My name is * *</pattern>
+    <template>Hello <star index="1"/>. How are you Mr <star index="2"/> good or bad?</template>
+  </category>
+    
+    <category>
+        <pattern>_ good</pattern>
+        <template>Thats nice to hear! If you have any questions about the locations of Marcellin, please feel free to ask </template>
+    </category>
+    
+    <category>
+        <pattern>_ good _</pattern>
+        <template>Thats nice to hear! If you have any questions about the locations of Marcellin, please feel free to ask  </template>
+    </category>
+    
+    <category>
+        <pattern>_ bad</pattern>
+        <template>Oh, I hope you feel better and if you have any questions about the locations of Marcellin, please feel free to ask </template>
+    </category>
+    
+    <category>
+        <pattern>_ bad _</pattern>
+        <template>Oh, I hope you feel better and if you have any questions about the locations of Marcellin, please feel free to ask .</template>
+    </category>
+    
+    
+    
+    <category>
+        <pattern>_ hermitage</pattern>
+        <template>The Hermitage building is the biggest building in the school and is located at the back entrance of the school</template>
+    </category>
+    
+        <category>
+        <pattern>_ hermitage _</pattern>
+        <template>The Hermitage building is the biggest building in the school and is located at the back entrance of the school</template>
+    </category>
+    
+    <category>
+        <pattern>_ Music _</pattern>
+        <template>The music room is located near the canteen and drama room above the gym</template>
+    </category>
+    
+    <category>
+        <pattern>_ music</pattern>
+        <template>The music room is located near the canteen and drama room above the gym </template>
+    </category>
+    
+    <category>
+        <pattern>_ relocatbles</pattern>
+        <template> the relocatbles are located near the bottom of Montagne and to the left of the shed lockers</template> 
+    </category>
+    
+        <category>
+        <pattern>_ relocatbles _</pattern>
+        <template> the relocatbles are located near the bottom of Montagne and to the left of the shed lockers</template> 
+    </category>
+    
+    <category>
+        <pattern>_ relocatables</pattern>
+        <template> the relocatables are located near the bottom of Montagne and to the left of the shed lockers</template> 
+    </category>
+    
+    <category>
+        <pattern>_ relocatables _</pattern>
+        <template> the relocatables are located near the bottom of Montagne and to the left of the shed lockers</template> 
+    </category>
+    
+    <category>
+        <pattern>_ Montagne</pattern>
+        <template>The montagne is located to the right of the shed lockers and at the bottom left of hermitage</template>
+    </category>
+    
+    <category>
+        <pattern>_ Montagne _</pattern>
+        <template>The montagne is located to the right of the shed lockers and at the bottom left of hermitage</template>
+    </category>
+    
+    <category>
+        <pattern>_ Libary</pattern>
+        <template>The library is located at the front of hermitage, to the left of Admara and Fourvière school of arts </template>
+    </category>
+    
+    <category>
+        <pattern>_ Libary _</pattern>
+        <template>The library is located at the front of hermitage, to the left of Admara and Fourvière school of arts </template>
+    </category>
+    
+    <category>
+        <pattern>_ Drama</pattern>
+        <template>The drama rooms are located near the music rooms as well as the canteen and is also above the gym </template>
+    </category>
+    
+    <category>
+        <pattern>_ Drama _</pattern>
+        <template>The drama rooms are located near the music rooms as well as the canteen and is also above the gym </template>
+    </category>
+    
+    <category>
+        <pattern>_ Canteen</pattern>
+        <template>The Canteen is located near the dram and music rooms directly above the gym</template>
+    </category> 
+    
+    <category>
+        <pattern>_ Canteen _</pattern>
+        <template>The Canteen is located near the dram and music rooms directly above the gym</template>
+    </category>
+    
+    <category>
+        <pattern>_ Office</pattern>
+        <template>The Office is located to the bottom right of hermitage next to sick bay and below the teachers lounge</template>
+    </category>
+    
+    <category>
+        <pattern>_ Office _</pattern>
+        <template>The Office is located to the bottom right of hermitage next to sick bay and below the teachers lounge</template>
+    </category>
+    
+    <category> 
+
+      <pattern>_ IT</pattern> 
+
+      <template> 
+
+          Turn right when inside the library and then you will find them on your right. 
+
+          </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ BRAY *</pattern> 
+
+      <template> 
+
+          The Bray oval is the field closest to the top of the school where the Marcellin footy 1sts play 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ LIONS *</pattern> 
+
+      <template> 
+
+          The Lions oval is the AFL pitch closest to the front entrance of the school. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ GARTNER *</pattern> 
+
+      <template> 
+
+          The Gartner field is where the Rugby and soccer pitches are near the front entrance of the school. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ BUSSES</pattern> 
+
+      <template> 
+
+          The Busses are located down at the front entrance of the school.  
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ SMH</pattern> 
+
+      <template> 
+
+          Saint Marcellins hall is the building next to both the tennis courts and le rosey. once you get to le rosey it should be pretty easy to see. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ SAINT MARCELLINS HALL</pattern> 
+
+      <template> 
+
+          Saint Marcellins hall is the building next to both the tennis courts and le rosey. once you get to le rosey it should be pretty easy to see. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ GYM</pattern> 
+
+      <template> 
+
+          You can find the gym underneath the functions room and the canteeen. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ CHANGEROOMS *</pattern> 
+
+      <template> 
+
+          There are multiple changerooms in Marcellin. You can find them in Saint Marcellins Hall. You can also find them next to the Gym. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ PLT *</pattern> 
+
+      <template> 
+
+          In the foyer of the library, turn left and go down the staris. you will find  the lecture theatre on you left. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ LECTURE *</pattern> 
+
+      <template> 
+
+          In the foyer of the library, turn left and go down the staris. you will find  the lecture theatre on you left. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ FOURVIERE *</pattern> 
+
+      <template> 
+
+          You can find Fourvière school of arts underneath the admara building or next to Montagne. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ FOURVIèRE *</pattern> 
+
+      <template> 
+
+          You can find Fourvière school of arts underneath the admara building or next to Montagne. 
+
+      </template> 
+
+  </category> 
+    
+    </aiml>
+    

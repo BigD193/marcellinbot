@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category> 
+
+      <pattern>_ IT</pattern> 
+
+      <template> 
+
+          Turn right when inside the library and then you will find them on your right. 
+
+          </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ BRAY *</pattern> 
+
+      <template> 
+
+          The Bray oval is the field closest to the top of the school where the Marcellin footy 1sts play 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ LIONS *</pattern> 
+
+      <template> 
+
+          The Lions oval is the AFL pitch closest to the front entrance of the school. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ GARTNER *</pattern> 
+
+      <template> 
+
+          The Gartner field is where the Rugby and soccer pitches are near the front entrance of the school. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ BUSSES</pattern> 
+
+      <template> 
+
+          The Busses are located down at the front entrance of the school.  
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ SMH</pattern> 
+
+      <template> 
+
+          Saint Marcellins hall is the building next to both the tennis courts and le rosey. once you get to le rosey it should be pretty easy to see. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ SAINT MARCELLINS HALL</pattern> 
+
+      <template> 
+
+          Saint Marcellins hall is the building next to both the tennis courts and le rosey. once you get to le rosey it should be pretty easy to see. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ GYM</pattern> 
+
+      <template> 
+
+          You can find the gym underneath the functions room and the canteeen. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ CHANGEROOMS *</pattern> 
+
+      <template> 
+
+          There are multiple changerooms in Marcellin. You can find them in Saint Marcellins Hall. You can also find them next to the Gym. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ PLT *</pattern> 
+
+      <template> 
+
+          In the foyer of the library, turn left and go down the staris. you will find  the lecture theatre on you left. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ LECTURE *</pattern> 
+
+      <template> 
+
+          In the foyer of the library, turn left and go down the staris. you will find  the lecture theatre on you left. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ FOURVIERE *</pattern> 
+
+      <template> 
+
+          You can find Fourvière school of arts underneath the admara building or next to Montagne. 
+
+      </template> 
+
+  </category> 
+
+   
+
+  <category> 
+
+      <pattern>_ FOURVIèRE *</pattern> 
+
+      <template> 
+
+          You can find Fourvière school of arts underneath the admara building or next to Montagne. 
+
+      </template> 
+
+  </category> 
+ </aiml>
